@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: brown;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 2rem;
+}
+.container {
+  border-bottom: 2px solid brown;
+  border-top: 2px solid brown;
+  width: 60%;
+  height: 60%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+.backImg {
+  background-image: url(https://media.istockphoto.com/id/1089173146/tr/vekt%C3%B6r/vekt%C3%B6r-%C3%A7izimler-doku-ile-%C3%A7izgili-ka%C4%9F%C4%B1t.jpg?s=1024x1024&w=is&k=20&c=9lfy0VybFOHCBxbeJeaNGQT7wOk-JPI9FPgKLoCLsGo=);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  width: 70vw;
+  height: 70vh;
+  margin: 3rem auto;
+}
+.text {
+  text-decoration: line-through;
+}
+.checked {
+  contain: x;
+}
+div.sonuc {
+  display: inline-block;
+  width: 200px;
+
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  margin-left: 10rem;
+  color: brown;
+  font-weight: 700;
+}

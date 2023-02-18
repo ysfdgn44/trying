@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(117, 69, 163);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  /* font-size: 32px; */
+  background-color: rgb(112, 175, 175);
+  border-radius: 15px;
+  height: auto;
+  min-height: 30%;
+  flex-direction: column;
+}
+header {
+  font-weight: 800;
+  font-size: 32px;
+  /* text-shadow: 3px 3px 3px 10px 1 black; */
+}
+#todo-input {
+  height: 2rem;
+  width: 15rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+}
+#todo-button {
+  height: 2rem;
+  width: 4rem;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+/* #todo-ul {
+  margin: 0.5rem;
+} */
+#todo-ul li {
+  list-style: none;
+  background-color: antiquewhite;
+  display: flex;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 200px;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+#todo-ul li .fa-check {
+  color: green;
+}
+#todo-ul li p + i {
+  color: red;
+}
+.checked {
+  text-decoration: line-through;
+}
